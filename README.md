@@ -1,2 +1,3 @@
-# sunsetjs-website
-website for sunsetjs.com
+Website for sunsetjs.com.
+
+Contributions welcome.

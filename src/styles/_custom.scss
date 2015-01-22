@@ -1,0 +1,55 @@
+body {
+  @include container(40rem);
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+.intro {
+  @include breakpoint(960px) {
+    @include bleed-x(300em);
+  }
+
+  background: gray(98%);
+  padding: rhythm(3) rhythm(1.5) rhythm(4) rhythm(1.5);
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.when-and-where {
+  @include breakpoint(960px) {
+    @include bleed-x(300em);
+  }
+
+  background: rgb(245, 235, 225);
+  color: rgb(107, 99, 90);
+  padding: rhythm(3) rhythm(1.5);
+
+  h1 {
+    color: #51483E;
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer {
+  @include breakpoint(960px) {
+    @include bleed-x(300em);
+  }
+
+  background: rgb(114, 108, 101);
+  color: rgb(255, 253, 246);
+  padding: rhythm(2) rhythm(1.5);
+
+}
+
+a {
+  color: inherit;
+  font-weight: 700;
+}

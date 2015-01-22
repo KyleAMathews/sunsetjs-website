@@ -47,6 +47,9 @@ h2 {
   color: rgb(255, 253, 246);
   padding: rhythm(2) rhythm(1.5);
 
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 a {

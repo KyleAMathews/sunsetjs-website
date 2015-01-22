@@ -759,6 +759,8 @@ h2 {
       margin-left: -300em;
       padding-right: 300em;
       padding-left: 300em; } }
+  .footer *:last-child {
+    margin-bottom: 0; }
 
 a {
   color: inherit;

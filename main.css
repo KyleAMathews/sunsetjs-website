@@ -712,7 +712,8 @@ body {
   max-width: 960px;
   max-width: 40rem;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  overflow-x: hidden; }
   body:after {
     content: " ";
     display: block;
